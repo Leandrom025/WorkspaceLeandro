@@ -1,0 +1,51 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoComposta {
+
+	public static void main(String[] args) {
+
+/*Input: produto - qtde - valor unitário
+ * Preciso avaliar o estoque:
+ * se a qtde estiver entre 10 e 20 - valor unitário terá 10% de redução
+ * se a qtde estiver entre 5 e 9 - o valor unitário terá 5% de redução
+ * se a qtde for menor que 5 - sem redução
+ * se a qtde for maior que 20 - 12% de redução
+ * 
+ * No final exibir o valor do produto atualizado
+ */
+	
+		String Produto = JOptionPane.showInputDialog("Produto:");	
+		float qtde = Float.parseFloat(JOptionPane.showInputDialog("Quantidade:"));
+		float Valor = Float.parseFloat(JOptionPane.showInputDialog("Valor Unitário:"));
+				
+		if (qtde>=20) {
+			System.out.println("Você terá redução de 12%: " + Produto);
+		} else if (qtde>=5 && qtde<9) {
+			System.out.println("Você terá redução de 5% " + Produto);
+		} else if (qtde>=10 && qtde<20) {
+			System.out.println("Você terá redução de 10% " + Produto);
+		} else {
+			System.out.println("Você não terá redução " + Produto);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
