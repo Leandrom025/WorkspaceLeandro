@@ -1,0 +1,45 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		// String é uma classe => é um tipo de Referência
+		// Classe se inicia em letra maiúscula (dentro de classe eu tenho métodos)
+		// Date => também é um tipo de referência
+	    
+		String email= "leanDroGmAil.com.bR";
+		System.out.println("Original: " + email);
+		System.out.println("Maiusculo:" + email.toUpperCase());
+		System.out.println("Maiusculo:" + email.toLowerCase());
+		System.out.println("Qtde Caracteres:" + email.length());
+		System.out.println("Tem arroba?:" + email.contains("@"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

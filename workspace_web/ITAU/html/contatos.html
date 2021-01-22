@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+
+</head>
+
+<body>
+    <tr>
+        <table border="0" WIDTH="100%" align="center">
+            <td align="center"><a href="../html/index.html"><img src="../imagens/logo.png" width="200" height="50"></a>
+            </td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ONLINE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTATO</td>
+            <td>CONTEÚDOS</td>
+    </tr>
+    </table>
+    <br>
+    <form id="formulario" method="POST">
+        <label>Nome:</label><input type="text" name="nome" required><br><br>
+        <label>E-mail</label><input type="email" name="email" required><br><br>
+        <label>Senha</label><input type="password" name="senha" required><br><br>
+        <label>Informeo seu Gênero:</label>
+        <input type="radio" name="opcao_radio" value="Feminino" /> Feminino
+        <input type="radio" name="opcao_radio" value="Masculino" /> Masculino
+        <input type="radio" name="opcao_radio" value="Não informado" /> Não informado <br><br>
+        <label>Escolha o seu curso:</label>
+
+        <select required>
+            <option value="XML">XML</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select><br><br>
+
+        <input type="checkbox"  name="opcao_check" value="manhã"> Manhã
+        <input type="checkbox"  name="opcao_check" value="tarde"> Tarde
+        <input type="checkbox"  name="opcao_check" value="noite"> Noite<br><br>
+
+
+        <label>Informe a data que deseja cursar:</label><input type="date" name="data_curso"><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea cols="50" row="4" name="mensagem"></textarea><br><br>
+        <label>Insira um comprovante de residência:</label><input type="file" name="arquivo"><br><br>>
+
+
+
+
+        <input type="submit" value="Enviar">
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+package br.com.leandrocorp2.modernizacao.dao;
+
+public interface ComunidadeDAO {
+
+}

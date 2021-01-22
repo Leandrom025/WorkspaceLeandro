@@ -1,0 +1,7 @@
+package br.com.leandrocorp2.modernizacao.dao;
+
+import br.com.leandrocorp2.modenizacao.model.Usuario;
+
+public interface UsuarioDAO extends CrdRepository<Usuario, Integer> {
+
+}

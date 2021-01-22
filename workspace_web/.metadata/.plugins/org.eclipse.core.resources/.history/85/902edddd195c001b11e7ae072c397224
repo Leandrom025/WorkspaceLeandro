@@ -1,0 +1,13 @@
+package br.com.leandrocorp2.modernizacao.dao;
+
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+
+import br.com.leandrocorp2.modernizacao.model.Comunidade;
+import br.com.leandrocorp2.modernizacao.model.Modernizacao;
+
+public interface ModernizacaoDAO extends CrudRepository<Modernizacao,Integer>{
+	
+	}

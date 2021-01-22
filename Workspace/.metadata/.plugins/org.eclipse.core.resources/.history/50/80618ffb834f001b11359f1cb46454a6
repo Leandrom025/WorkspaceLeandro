@@ -1,0 +1,31 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int qtdeDias = Integer.parseInt(JOptionPane.showInputDialog("Diarias:"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("Valor Diaria:"));
+		
+		if (qtdeDias>15) {
+			valor = valor * qtdeDias + (qtdeDias *(float) 5.5);
+			System.out.println("Valor total da Hospedagem é: " + valor);			
+		} 
+		
+		if (qtdeDias==15)
+			
+			
+			
+		}
+		
+	    
+	
+	
+	
+	
+	}
+
+}

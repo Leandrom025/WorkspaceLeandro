@@ -1,0 +1,50 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemplWhile {
+
+	public static void main(String[] args) {
+		
+		String email = JOptionPane.showInputDialog("Digite o e-mail").toLowerCase();
+		if (email.contains("@")==true) {
+		System.out.println("Seja bem vindo: " + email.substring(0, email.indexOf("@")));
+		}
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

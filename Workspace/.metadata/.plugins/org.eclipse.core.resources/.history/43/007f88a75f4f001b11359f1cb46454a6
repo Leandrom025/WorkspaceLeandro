@@ -1,0 +1,50 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String disciplina = JOptionPane.showInputDialog("Disciplina:");
+	float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Nota 1"));
+	float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Nota 2"));
+	float media = (nota1+nota2/2);
+	
+	System.out.println("Média:" + media);
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}
